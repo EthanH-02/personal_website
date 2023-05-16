@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Futura;
+    src: url('.../FuturaStdBoldItalic.woff') format("WOFF");
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+body {
+    padding: 14px;
+    background-color: ivory;
+    color: #36454F;
+    font-size: 14px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dark {
+    background-color: #36454F;
+    color: ivory;
+}
+
+#emphasis {
+    color: #6495ED;
+    text-emphasis-style: bold;
+}
